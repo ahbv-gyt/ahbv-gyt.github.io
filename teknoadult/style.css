@@ -1,0 +1,105 @@
+
+
+.nav-item {
+    font-size: 20px;
+}
+
+.hover-2 {
+    /* the height */
+ 
+  
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+      0 var(--_i, var(--h)) ,
+      0 0 rgb(0 0 0 / calc(var(--_i, 1) * 100%) );
+    background: 
+      linear-gradient(#6b0bc7 0 0) 
+      bottom/100% calc(100% - var(--_i, 1) * 100%) no-repeat;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .hover-2:hover {
+    --_i: 0;
+  }
+
+.active-hover{
+    background-color:  #6b0bc7; 
+}
+
+.parallax-window {
+
+    min-height: 1200px;
+    background: transparent;
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+  
+}
+
+
+
+.parallax-window-2 {
+
+  min-height: 1200px;
+  background: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+
+}
+
+::placeholder { 
+  color: #fff !important; 
+  opacity: 1 !important; /* Firefox */ 
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff !important;
+} 
+
+
+input:focus { 
+outline: none !important;
+border-color: #6b0bc7!important;
+box-shadow: 0 0 10px  #6b0bc7!important;
+}
+textarea:focus { 
+outline: none !important;
+border-color: #6b0bc7 !important;
+box-shadow: 0 0 10px  #6b0bc7 !important;
+}
+
+
+.button {
+  background-color: #6b0bc7; /* Green */
+  border: none;
+  color: #6b0bc7;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: 6b0bc7; 
+
+}
+
+.button1:hover {
+  background-color: #6b0bc7;
+  color: white;
+}
